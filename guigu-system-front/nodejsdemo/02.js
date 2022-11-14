@@ -6,6 +6,6 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'})
     // 发送响应数据 "Hello World"
     response.end('Hello Server')
-}).listen(8888)
+}).listen(8800)
 // 终端打印如下信息
-console.log('Server running at http://127.0.0.1:8888/')
+console.log('Server running at http://127.0.0.1:8800/')

@@ -25,6 +25,7 @@ public class IndexController {
     
     //login
     //{"code":20000,"data":{"token":"admin-token"}}
+    //使用SpringSecurity就不会走这边了
     @PostMapping("login")
     public Result login(@RequestBody LoginVo loginVo) {
         //根据username查询数据

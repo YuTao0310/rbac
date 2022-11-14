@@ -1,14 +1,11 @@
 package com.atguigu.system.test;
 
 import com.atguigu.model.system.SysRole;
-import com.atguigu.system.mapper.SysRoleMapper;
 import com.atguigu.system.service.SysRoleService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.Arrays;
 import java.util.List;
 
 @SpringBootTest

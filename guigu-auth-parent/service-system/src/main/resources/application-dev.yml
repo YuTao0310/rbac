@@ -1,5 +1,8 @@
 server:
   port: 8800
+  #servlet:
+  #  context-path: /prod-api # nginx部署时需要添加这个，其他情况不需要添加
+
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 查看日志
@@ -13,7 +16,7 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   redis:
-    host: 192.168.197.128
+    host: 127.0.0.1
     port: 6379
     database: 0
     timeout: 1800000

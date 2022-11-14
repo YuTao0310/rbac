@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JwtHelper",
+            "request": "launch",
+            "mainClass": "com.atguigu.common.utils.JwtHelper",
+            "projectName": "common-util"
+        },
+        {
+            "type": "java",
+            "name": "Launch PasswardGet",
+            "request": "launch",
+            "mainClass": "com.atguigu.system.test.PasswardGet",
+            "projectName": "service-system"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiceAuthApplication<service-system>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.atguigu.system.ServiceAuthApplication",
+            "projectName": "service-system",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=35059 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=service-system"
+        }
+    ]
+}
